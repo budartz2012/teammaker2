@@ -13,6 +13,9 @@ textarea, button {
 	padding: 0.25em;
 }
 
+.alt {
+	display: none;
+}
 
 .groups {
 	padding: 1em;
