@@ -1,0 +1,47 @@
+
+
+body {
+	font-family: sans-serif;
+	font-size: 17px;
+	padding: 1em;
+}
+
+
+
+textarea, button {
+	font-size: 1em;
+	padding: 0.25em;
+}
+
+.numgroups-wrap {
+	display: none;
+	
+	.alt & {
+		display: inherit;
+	}
+}
+
+.alt  {
+	display: none;
+}
+
+.groups {
+	padding: 1em;
+	background: #ddd;
+	margin: 1em 0;
+}
+	
+.group {
+	display: inline-block;
+	vertical-align: top;
+	background: #fff;
+	padding: 1em;
+	margin: 0.25em;
+	width: 18%;
+	border-radius: 3px;
+	box-shadow: 0 0 0.5em rgba(0,0,0,0.1);
+	
+	h2 {
+		margin: 0;
+	}
+}
